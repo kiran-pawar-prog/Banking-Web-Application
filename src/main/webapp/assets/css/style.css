@@ -1,0 +1,214 @@
+/* Google poppins font  */
+@import
+	url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* variables */
+:root { 
+	--primary-font-family: 'Poppins', sans-serif; 
+	--light-white: #f5f8fa; 
+	--gray: #5e6278; 
+	--gray-1: #e3e3e3;
+}
+
+.header {
+	height: 93vh;
+	width: 100%;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9),
+		rgba(0, 0, 0, 0.5)), url("../images/untitled1.jpg");
+	background-size: cover;
+	color: white;
+	font-family: 'Merriweather', serif;
+}
+
+.h-100 {
+	height: 100%;
+	width: 100%;
+}
+
+.ff {
+	font-family: 'Merriweather', serif;
+}
+
+.wrapperReg {
+	padding: 0 0 100px;
+	background: url(../images/signup-image.jpg), var(--gray-1);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 350px 250px;
+	background-attachment: fixed;
+	min-height: 100%;
+	background-blend-mode: multiply;
+}
+
+.wrapperInfo {
+	padding: 0 0 100px;
+	background: url(../images/info-image.jpg), var(--gray-1);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 350px;
+	background-attachment: fixed;
+	min-height: 100%;
+	background-blend-mode: multiply;
+}
+
+.wrapperUpdate {
+	padding: 0 0 100px;
+	background: url(../images/updateinfo-image.jpg), var(--gray-1);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 350px;
+	background-attachment: fixed;
+	min-height: 100%;
+	background-blend-mode: multiply;
+}
+
+.wrapperMain {
+	padding: 0 0 100px;
+	background: url(../images/bank-image.jpg), var(--gray-1);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 350px;
+	background-attachment: fixed;
+	min-height: 100%;
+	background-blend-mode: multiply;
+}
+
+.bankLogo {
+	width: 250px;
+	height: 150px;
+	mix-blend-mode: multiply;
+}
+
+.wrapper {
+	height: 100vh;
+	padding: 0 0 100px;
+	background: url(../images/signin-image.png), var(--gray-1);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 300px;
+	background-attachment: fixed;
+	min-height: 100%;
+	background-blend-mode: multiply;
+}
+
+.wrapperWithdraw {
+	height: 100vh;
+	padding: 0 0 100px;
+	background: url(../images/withdrawmoney-image.jpg), var(--gray-1);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 400px;
+	background-attachment: fixed;
+	min-height: 100%;
+	background-blend-mode: multiply;
+}
+
+.wrapperAdd {
+	height: 100vh;
+	padding: 0 0 100px;
+	background: url(../images/addmoney-image.jpg), var(--gray-1);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 400px 250px;
+	background-attachment: fixed;
+	min-height: 100%;
+	background-blend-mode: multiply;
+}
+
+.wrapperOkay {
+    height: 100vh;
+    padding: 0 0 100px;
+    background-color:  var(--gray-1);  
+}
+
+.wrapperDeactive {
+	height: 100vh;
+	padding: 0 0 100px;
+	background: url(../images/deactivateaccount-image.jpg), var(--gray-1);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 400px;
+	background-attachment: fixed;
+	min-height: 100%;
+	background-blend-mode: multiply;
+}
+
+.wrapperForget {
+	height: 100vh;
+	padding: 0 0 100px;
+	background: url(../images/forgotpassword-image.jpg), var(--gray-1);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 350px;
+	background-attachment: fixed;
+	min-height: 100%;
+	background-blend-mode: multiply;
+}
+
+.wrapperReset {
+	height: 100vh;
+	padding: 0 0 100px;
+	background: url(../images/resetpassword-image.jpg), var(--gray-1);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 400px;
+	background-attachment: fixed;
+	min-height: 100%;
+	background-blend-mode: multiply;
+}
+
+.logo {
+	width: 45px;
+	height: auto;
+	mix-blend-mode: multiply;
+}
+
+body {
+	font-family: var(--primary-font-family);
+	font-size: 14px;
+}
+
+.wrapper input, .wrapperReg input, .wrapperForget input, .wrapperReset input,
+	.wrapperWithdraw input, .wrapperAdd input, .wrapperInfo input,
+	.wrapperUpdate input {
+	background-color: var(--light-white);
+	border-color: var(--light-white);
+	color: var(--gray);
+}
+
+.wrapperReg select, .wrapperForget select, .wrapperUpdate select,
+	.wrapperDeactive select {
+	background-color: var(--light-white);
+	border-color: var(--light-white);
+	color: var(--gray);
+}
+
+.wrapper input:focus, .wrapperReg input:focus, .wrapperForget input:focus,
+	.wrapperReset input:focus, .wrapperWithdraw input:focus, .wrapperAdd input:focus,
+	.wrapperInfo input:focus, .wrapperUpdate input:focus {
+	box-shadow: none;
+}
+
+.wrapperReg select:focus, .wrapperForget select:focus, .wrapperUpdate select:focus,
+	.wrapperDeactive select:focus {
+	box-shadow: none;
+}
+
+.wrapper .submit_btn, .wrapperReg .submit_btn, .wrapperReset .submit_btn,
+	.wrapperMain .submit_btn, .wrapperDeactive .submit_btn {
+	padding: 15px;
+	font-weight: 500;
+}
+
+.wrapper .submit_btn:focus, .wrapperReg .submit_btn:focus, .wrapperReset .submit_btn:focus,
+	.wrapperMain .submit_btn:focus {
+	box-shadow: none;
+}
+
+.wrapperMain .sub_or_cancel:focus, .wrapperWithdraw .sub_or_cancel:focus,
+	.wrapperAdd .sub_or_cancel:focus, .wrapperInfo .sub_or_cancel:focus,
+	.wrapperUpdate .sub_or_cancel:focus, .wrapperReset .sub_or_cancel:focus,
+	.wrapperForget .sub_or_cancel:focus, .wrapperDeactive .sub_or_cancel:focus,
+	.wrapper .sub_or_cancel:focus, .wrapperOkay .sub_or_cancel:focus {
+	box-shadow: none;
+}
